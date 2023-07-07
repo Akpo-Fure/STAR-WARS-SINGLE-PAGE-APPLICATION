@@ -1,0 +1,56 @@
+body {
+  background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/common/swbf2-section-bg-2020-april-update-xl.jpg.adapt.1456w.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: flex;
+  flex-basis: 22%;
+  text-align: center;
+  color: black;
+  font-size: large;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+ul li:hover {
+  background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/common/swbf2-section-bg-2020-april-update-xl.jpg.adapt.1456w.jpg");
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+}
+
+button {
+  background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/common/swbf2-section-bg-2020-april-update-xl.jpg.adapt.1456w.jpg");
+  font-size: 25px;
+}
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+.hide {
+  display: none;
+}
